@@ -55,11 +55,11 @@
         <schedule>every 30 minutes</schedule>
     </cron>
 
-    <cron>
-        <url>/cron/xiaov?key=dev_key</url>
-        <description>XiaoV replies Stm.</description>
-        <schedule>every 5 seconds</schedule>
-    </cron>
+    <!--<cron>-->
+        <!--<url>/cron/xiaov?key=dev_key</url>-->
+        <!--<description>XiaoV replies Stm.</description>-->
+        <!--<schedule>every 5 seconds</schedule>-->
+    <!--</cron>-->
 
     <cron>
         <url>/cron/invitecode-expire?key=dev_key</url>
@@ -67,11 +67,11 @@
         <schedule>every 6 minutes</schedule>
     </cron>
 
-    <cron>
-        <url>/cron/mail/weekly?key=dev_key</url>
-        <description>Send weekly newsletter</description>
-        <schedule>every 5 minutes</schedule>
-    </cron>
+    <!--<cron>-->
+        <!--<url>/cron/mail/weekly?key=dev_key</url>-->
+        <!--<description>Send weekly newsletter</description>-->
+        <!--<schedule>every 5 minutes</schedule>-->
+    <!--</cron>-->
 
     <cron>
         <url>/cron/status?key=dev_key</url>
@@ -79,11 +79,11 @@
         <schedule>every 2 hours</schedule>
     </cron>
 
-    <cron>
-        <url>/cron/verifycode/email?key=dev_key</url>
-        <description>Sends email verifycodes</description>
-        <schedule>every 5 seconds</schedule>
-    </cron>
+    <!--<cron>-->
+        <!--<url>/cron/verifycode/email?key=dev_key</url>-->
+        <!--<description>Sends email verifycodes</description>-->
+        <!--<schedule>every 5 seconds</schedule>-->
+    <!--</cron>-->
 
     <cron>
         <url>/cron/verifycode/remove-expired?key=dev_key</url>
