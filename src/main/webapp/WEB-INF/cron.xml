@@ -55,13 +55,6 @@
         <schedule>every 30 minutes</schedule>
     </cron>
 
-<<<<<<< HEAD
-    <!--<cron>-->
-        <!--<url>/cron/xiaov?key=dev_key</url>-->
-        <!--<description>XiaoV replies Stm.</description>-->
-        <!--<schedule>every 5 seconds</schedule>-->
-    <!--</cron>-->
-=======
     <!--
     <cron>
         <url>/cron/xiaov?key=dev_key</url>
@@ -69,8 +62,6 @@
         <schedule>every 5 seconds</schedule>
     </cron>
     -->
->>>>>>> upstream/master
-
     <cron>
         <url>/cron/invitecode-expire?key=dev_key</url>
         <description>Expire invitecode</description>
